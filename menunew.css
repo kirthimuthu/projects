@@ -1,0 +1,104 @@
+
+body{
+    overflow: hidden;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-container{
+    background-color:black;
+    max-width: 134px;
+    width: 25%;
+    height: 700px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+    
+    
+}
+.s-delux{
+    padding: 35px;
+    margin-left: 10px;
+}
+.vector{
+    padding: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.vector :hover{
+ background-color: #F1D5BB;
+}
+
+
+.cart{
+    padding: 35px;
+    margin-left: 10px;
+}
+.place{
+    padding: 35px;
+    margin-left: 10px;
+}
+.group{
+    padding: 35px;
+    margin-left: 10px;
+}
+.menu{
+    padding: 45px;
+    margin-left: 5px;
+    width:35px;
+    background-color: bisque;
+    
+}
+.head {
+    margin-left: 3rem;
+}
+.head p{
+    position: absolute;
+    font-size: 35px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid salmon;
+    
+
+}
+.flex{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position:absolute;
+    margin-left: 3rem;
+    margin-top: 6rem;
+    gap: 5px;
+    column-gap: 5rem;
+    }
+.section{
+    width: 100%;
+    height: 5vh;
+}
+.menu-image{
+    width: 220px;
+    height: 250px;
+}
+.card-item p {
+    text-align: center;
+    margin-top: 0;
+}
+.button-container {
+    margin-top: 680 px;
+    margin-left:100;
+    position: absolute;
+    width: 82%;
+}
+button{ 
+    
+    margin: auto;
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-Menuitems</title>
+    <link rel="stylesheet" href="./menu.css">
+</head>
+<body>
+    <div  class="section">
+        <div class="menu-container">
+            <img src="./cardimages/S. (1).svg" alt="slogo" class="s-delux"  onclick="menuBack()"/>
+            <img src="./cardimages/Vector (1).svg" alt="menupage" class="vector" onclick="menuBack()"/>
+            <img src="./cardimages/restaurant_menu_24px.svg" alt="menupage" onclick="menuBack()" class="group">
+            <img src="./cardimages/shopping_cart_24px.svg" alt="menupage" class="menu">
+            <img src="./cardimages/Group 7 (2).svg" alt="menupage" class="place">
+            <img src="./cardimages/place_24px.svg" alt="menupage" class="cart">
+        </div>
+        <div class="list-container">
+            <div class="head">
+                <p>CART</p>
+            </div>
+            <div class="flex menuItems">
+            </div>
+            <div class="button-container">
+                <button>LOAD MORE</button>
+            </div>
+            <div class="cart-container-total">
+                <h3>Your Subtotal</h3>
+                <div>
+                    <p>Subtotal</p>
+                </div>
+                <button onclick="confirm()">Confirm order</button>
+            </div>
+        </div>
+    </div>
+    <script src="./cart.js"></script>
+</body>
+</html>

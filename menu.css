@@ -1,0 +1,81 @@
+
+body{
+    overflow: hidden;
+}
+
+
+.menu-container{
+    background-color:black;
+    width: 134px;
+    height: 700px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+    
+    
+}
+.s-delux{
+    padding: 35px;
+    margin-left: 10px;
+}
+.vector{
+    padding: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.vector :hover{
+ background-color: #F1D5BB;
+}
+
+
+.cart{
+    padding: 35px;
+    margin-left: 10px;
+}
+.place{
+    padding: 35px;
+    margin-left: 10px;
+}
+.group{
+    padding: 35px;
+    margin-left: 10px;
+}
+.menu{
+    padding: 45px;
+    margin-left: 5px;
+    width:35px;
+    background-color: bisque;
+}
+.head p{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 200px;
+    top: 0;
+    margin-top:0;
+    
+
+}
+.flex{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position:absolute;
+    margin-left: 16rem;
+    margin-top: 4rem;
+    gap: 5px;
+    column-gap: 5rem;
+    }
+.section{
+    width: 150vh;
+    height: 5vh;
+}
+.menu-image{
+    width: 220px;
+    height: 250px;
+}
+.card-item p {
+    text-align: center;
+    margin-top: 0;
+}
+
